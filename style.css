@@ -21,8 +21,8 @@ html{
     font-family: "Lato",Arial,sans-serif;
 }
 section{
-    width: 200%;
-    height: 200vh;
+    width: 150%;
+    height: 150vh;
   
     color: #fff;
     background: linear-gradient(-45deg, #EE7752, #E73c7E, #23A6D5, #23D5AB);
