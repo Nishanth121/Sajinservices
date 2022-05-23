@@ -1,0 +1,43 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100";
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+h1{
+    font-size: 45px;
+}
+h3{
+
+    font-size: 32px;
+}
+h2{
+
+    font-size: 32px;
+}
+html{
+    font-size: 10px;
+    font-family: "Lato",Arial,sans-serif;
+}
+section{
+  
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73c7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    position : relative;
+    animation: change 10s ease-in-out infinite;
+
+}
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+}
+50%{
+    background-position: 100% 50%;
+}
+100%{
+    
+        background-position: 0 50%;
+}
+}
